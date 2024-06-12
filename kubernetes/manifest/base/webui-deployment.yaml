@@ -27,7 +27,7 @@ spec:
             memory: "1Gi"
         env:
         - name: OLLAMA_BASE_URL
-          value: "http://my-model.default.svc.cluster.local:8080"
+          value: "http://my-model-deployment.default.svc.cluster.local:8080"
         tty: true
         volumeMounts:
         - name: webui-volume
